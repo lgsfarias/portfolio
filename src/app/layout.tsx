@@ -1,6 +1,7 @@
 import './globals.css';
-import { Roboto_Condensed } from '@next/font/google';
+import { Roboto_Condensed } from 'next/font/google';
 import Link from 'next/link';
+import Header from './components/Header';
 
 const robotoCondensed = Roboto_Condensed({
   subsets: ['latin'],
@@ -21,19 +22,7 @@ export default function RootLayout({
       <head />
       <body className={`${robotoCondensed.className}`}>
         <div className="bg-gradient-to-tr from-indigo-400 to-indigo-700 flex flex-col absolute inset-0 overflow-scroll ">
-          <nav>
-            <ul>
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact</Link>
-              </li>
-            </ul>
-          </nav>
+          <Header />
           {children}
         </div>
       </body>
