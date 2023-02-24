@@ -1,7 +1,7 @@
 import { Github, Linkedin } from 'lucide-react';
 import { BsWhatsapp } from 'react-icons/bs';
 import Image from 'next/image';
-// import MobileNav from './MobileNav';
+import MobileNav from './MobileNav';
 import logo from '../../../public/logo.png';
 import NavLink from './NavLink';
 import Link from 'next/link';
@@ -59,7 +59,7 @@ export default function Header() {
           <BsWhatsapp size={24} color="white" />
         </a>
       </div>
-      {/* <MobileNav /> */}
+      <MobileNav />
     </div>
   );
 }
