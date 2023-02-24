@@ -37,6 +37,36 @@ const projects: ProjectDTO[] = [
     githubUrl: 'https://github.com/lgsfarias/tractian-challenge-front',
     tags: ['typescript', 'mongodb', 'jwt', 'react', 'styled-components'],
   },
+  {
+    id: 3,
+    image: '/images/projects/parrots.png',
+    title: 'Parrots Card Game',
+    description:
+      'Parrot Card Game é um jogo de memória temático com aleatoriedade, efeitos e transição, design responsivo e papagaios dançantes!',
+    deployUrl: 'https://lgsfarias.github.io/projeto4-parrotscardgame/',
+    githubUrl: 'https://github.com/lgsfarias/projeto4-parrotscardgame',
+    tags: ['html', 'css', 'javascript'],
+  },
+  {
+    id: 4,
+    image: '/images/projects/driven-eats.png',
+    title: 'Driveneats',
+    description:
+      'O meu primeiro projeto usando JavaScript foi a implementação do site mobile do DrivenEats, um restaurante especial que entrega seu pedido em 6 minutos. Para isso, o restaurante só trabalha com um tipo específico de pedido: o combo de Prato+Bebida+Sobremesa. O site permite de forma fácil a escolha do seu combo, enviando em seguida o pedido por WhatsApp diretamente para o restaurante.',
+    deployUrl: 'https://lgsfarias.github.io/projeto3-driveneats/',
+    githubUrl: 'https://github.com/lgsfarias/projeto3-driveneats',
+    tags: ['html', 'css', 'javascript'],
+  },
+  {
+    id: 5,
+    image: '/images/projects/globo.com.png',
+    title: 'Globo.com',
+    description:
+      'Este foi o meu primeiro projeto e o seu objetivo era aplicar o layout de uma versão simplificada da home da globo.com, utilizando apenas HTML e CSS. Também foi feito um layout para telas com resolucoes menores, utilizando media queries.',
+    deployUrl: 'https://lgsfarias.github.io/projeto1-globo.com/',
+    githubUrl: 'https://github.com/lgsfarias/projeto1-globo.com/',
+    tags: ['html', 'css'],
+  },
 ];
 
 export default projects;
