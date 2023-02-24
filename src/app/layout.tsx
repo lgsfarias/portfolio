@@ -2,6 +2,7 @@ import './globals.css';
 import { Roboto_Condensed } from 'next/font/google';
 import Link from 'next/link';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const robotoCondensed = Roboto_Condensed({
   subsets: ['latin'],
@@ -23,7 +24,8 @@ export default function RootLayout({
       <body className={`${robotoCondensed.className}`}>
         <div className="bg-gradient-to-tr from-indigo-400 to-indigo-700 flex flex-col absolute inset-0 overflow-scroll ">
           <Header />
-          {children}
+          <div className="flex-grow">{children}</div>
+          <Footer />
         </div>
       </body>
     </html>
