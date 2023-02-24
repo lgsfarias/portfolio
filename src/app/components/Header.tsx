@@ -1,5 +1,5 @@
-// import { Github, Linkedin } from 'lucide-react';
-// import { BsWhatsapp } from 'react-icons/bs';
+import { Github, Linkedin } from 'lucide-react';
+import { BsWhatsapp } from 'react-icons/bs';
 import Image from 'next/image';
 // import MobileNav from './MobileNav';
 import logo from '../../../public/logo.png';
@@ -7,7 +7,7 @@ import NavLink from './NavLink';
 import Link from 'next/link';
 
 export default function Header() {
-  // const mensagemWhatsapp = 'Olá, Luiz! Tudo bem?';
+  const mensagemWhatsapp = 'Olá, Luiz! Tudo bem?';
 
   return (
     <div className="flex justify-between items-center w-screen px-5 py-2">
@@ -36,7 +36,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      {/* <div className="hidden sm:flex items-center justify-center gap-5">
+      <div className="hidden sm:flex items-center justify-center gap-5">
         <a
           href="
               https://www.linkedin.com/in/lgsfarias/"
@@ -59,7 +59,7 @@ export default function Header() {
           <BsWhatsapp size={24} color="white" />
         </a>
       </div>
-      <MobileNav /> */}
+      {/* <MobileNav /> */}
     </div>
   );
 }
