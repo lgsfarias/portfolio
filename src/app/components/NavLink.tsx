@@ -11,7 +11,6 @@ type NavLinkProps = {
 export default function NavLink({ href, children }: NavLinkProps) {
   const segment = useSelectedLayoutSegment();
   const isActive = href === `${segment ? segment : ''}`;
-  console.log({ href, segment, isActive });
   return (
     <Link
       href={href}

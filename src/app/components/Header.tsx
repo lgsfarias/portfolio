@@ -19,7 +19,7 @@ export default function Header() {
             alt="Logo"
             width={150}
             height={50}
-            className="cursor-pointer"
+            className="cursor-pointer w-auto h-auto"
           />
         </Link>
       </div>
