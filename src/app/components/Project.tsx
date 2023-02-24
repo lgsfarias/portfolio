@@ -11,7 +11,6 @@ export default function Project({
   deployUrl,
   githubUrl,
 }: ProjectDTO) {
-  console.log({ image });
   return (
     <div className="flex flex-col bg-white w-full rounded-md p-5 shadow-md shadow-slate-600 sm:w-[calc(50%-10px)] lg:w-[calc(33.3333%-13.5px)] xl:w-[calc(25%-15px)]">
       <div
