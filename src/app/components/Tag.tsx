@@ -1,19 +1,10 @@
 type TagProps = {
   name: string;
-  selected?: boolean;
-  onClick?: () => void;
 };
 
-export default function Tag({ name, selected = false, onClick }: TagProps) {
+export default function TagFilter({ name }: TagProps) {
   return (
-    <div
-      className={`flex items-center justify-center p-2 rounded-xl cursor-pointer font-bold ${
-        selected
-          ? 'bg-indigo-900 text-white border-2 border-indigo-900'
-          : 'bg-transparent border-2 border-white text-white'
-      }`}
-      onClick={onClick}
-    >
+    <div className="flex items-center justify-center p-2 rounded-xl cursor-pointer font-bold text-indigo-900 border-2 border-indigo-900 whitespace-nowrap shadow-md">
       {name}
     </div>
   );
