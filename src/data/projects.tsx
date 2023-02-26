@@ -39,6 +39,25 @@ const projects: ProjectDTO[] = [
   },
   {
     id: 3,
+    image: '/images/projects/electrum.png',
+    title: 'Electrum E-commerce',
+    description:
+      'Uma página estática simulando um e-commerce de eletrônicos para treinar o uso de HTML e SASS.',
+    deployUrl: 'https://lgsfarias.github.io/electrum/',
+    githubUrl: 'https://github.com/lgsfarias/electrum/',
+    tags: ['html', 'sass'],
+  },
+  {
+    id: 4,
+    image: '/images/projects/tweetero-java.png',
+    title: 'Tweetero Java',
+    description:
+      'É um projeto que utiliza Java Spring Boot para criar uma API REST para um sistema de tweets, conhecido como Tweetero, um clone do Twitter. Neste projeto não foi desenvolvido o front-end. Ele já estava pronto e foi disponibilizado.',
+    githubUrl: 'https://github.com/lgsfarias/tweteroo-api-java',
+    tags: ['java', 'spring-boot'],
+  },
+  {
+    id: 30,
     image: '/images/projects/parrots.png',
     title: 'Parrots Card Game',
     description:
@@ -48,7 +67,7 @@ const projects: ProjectDTO[] = [
     tags: ['html', 'css', 'javascript'],
   },
   {
-    id: 4,
+    id: 40,
     image: '/images/projects/driven-eats.png',
     title: 'Driveneats',
     description:
@@ -58,7 +77,7 @@ const projects: ProjectDTO[] = [
     tags: ['html', 'css', 'javascript'],
   },
   {
-    id: 5,
+    id: 50,
     image: '/images/projects/globo.com.png',
     title: 'Globo.com',
     description:
