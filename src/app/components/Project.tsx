@@ -1,4 +1,4 @@
-import { ProjectDTO } from '@/data/projects';
+import { ProjectWhitSkills } from '@/types/Project';
 import { randomUUID } from 'crypto';
 import { Github, Link } from 'lucide-react';
 import Tag from './Tag';
@@ -6,11 +6,11 @@ import Tag from './Tag';
 export default function Project({
   image,
   title,
-  tags,
+  skills,
   description,
   deployUrl,
   githubUrl,
-}: ProjectDTO) {
+}: ProjectWhitSkills) {
   return (
     <div className="flex flex-col bg-white w-full rounded-md p-5 shadow-md shadow-slate-600 sm:w-[calc(50%-10px)] lg:w-[calc(33.3333%-13.5px)] xl:w-[calc(25%-15px)]">
       <div
@@ -26,8 +26,8 @@ export default function Project({
       </div>
       <div className="flex flex-col items-start justify-start gap-2 mb-5">
         <div className="flex w-full gap-1 overflow-auto">
-          {tags.map((tag, i) => (
-            <Tag name={tag} key={randomUUID()} />
+          {skills.map((skill) => (
+            <Tag key={randomUUID()} name={skill.name} />
           ))}
         </div>
         <div className="overflow-y-auto h-28">
