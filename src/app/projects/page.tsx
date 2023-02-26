@@ -4,7 +4,7 @@ import Project from '../components/Project';
 
 export default async function Projects() {
   const { projects }: { projects: ProjectWhitSkills[] } = await fetch(
-    'http://localhost:3000/api/projects',
+    `${process.env.API_URL}/projects`,
     {
       next: {
         revalidate: 60 * 60 * 24,
