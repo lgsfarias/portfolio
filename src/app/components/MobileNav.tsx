@@ -3,13 +3,12 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Github, Linkedin, Menu, X } from 'lucide-react';
-import { BsWhatsapp } from 'react-icons/bs';
 import { useSelectedLayoutSegment } from 'next/navigation';
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
   const segment = useSelectedLayoutSegment();
-  const mensagemWhatsapp = 'Olá, Luiz! Tudo bem?';
+
   return (
     <>
       <Menu
@@ -78,13 +77,6 @@ export default function MobileNav() {
               target="_blank"
             >
               <Github size={30} color="white" />
-            </a>
-            <a
-              href={`https://wa.me/5521980399582?text=${mensagemWhatsapp}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsWhatsapp size={30} color="white" />
             </a>
           </div>
         </div>
