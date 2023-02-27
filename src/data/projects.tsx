@@ -39,6 +39,16 @@ const projects: ProjectDTO[] = [
   },
   {
     id: 3,
+    image: '/images/projects/mywallet.jpg',
+    title: 'MyWallet',
+    description:
+      'MyWallet é um projeto Full Stack de uma aplicação web para gerenciar suas finanças pessoais. É possível cadastrar entradas e saídas, e visualizar um gráfico com o saldo mensal.',
+    deployUrl: 'https://my-wallet-three.vercel.app/',
+    githubUrl: 'https://github.com/lgsfarias/MyWallet',
+    tags: ['react', 'styled-components', 'express', 'mongodb'],
+  },
+  {
+    id: 4,
     image: '/images/projects/electrum.png',
     title: 'Electrum E-commerce',
     description:
@@ -48,7 +58,7 @@ const projects: ProjectDTO[] = [
     tags: ['html', 'sass'],
   },
   {
-    id: 4,
+    id: 5,
     image: '/images/projects/tweetero-java.png',
     title: 'Tweetero Java',
     description:
