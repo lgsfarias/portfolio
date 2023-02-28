@@ -27,16 +27,16 @@ const projects: ProjectDTO[] = [
       'docker-compose',
     ],
   },
-  {
-    id: 2,
-    image: '/images/projects/tractian-front.jpeg',
-    title: 'Tractian Front-end Challenge',
-    description:
-      'Este projeto foi desenvolvido como desafio para a vaga de desenvolvedor front-end na Tractian. É uma aplicação web que permite visualizar e gerenciar os ativos da empresa.',
-    deployUrl: 'https://tractian-challenge-front.vercel.app/',
-    githubUrl: 'https://github.com/lgsfarias/tractian-challenge-front',
-    tags: ['typescript', 'mongodb', 'jwt', 'react', 'styled-components'],
-  },
+  // {
+  //   id: 2,
+  //   image: '/images/projects/tractian-front.jpeg',
+  //   title: 'Tractian Front-end Challenge',
+  //   description:
+  //     'Este projeto foi desenvolvido como desafio para a vaga de desenvolvedor front-end na Tractian. É uma aplicação web que permite visualizar e gerenciar os ativos da empresa.',
+  //   deployUrl: 'https://tractian-challenge-front.vercel.app/',
+  //   githubUrl: 'https://github.com/lgsfarias/tractian-challenge-front',
+  //   tags: ['typescript', 'mongodb', 'jwt', 'react', 'styled-components'],
+  // },
   {
     id: 3,
     image: '/images/projects/mywallet.jpg',
@@ -49,6 +49,16 @@ const projects: ProjectDTO[] = [
   },
   {
     id: 4,
+    image: '/images/projects/trackit.png',
+    title: 'TrackIt',
+    description: `TrackIt é uma aplicação web para gerenciar seus hábitos. É possível cadastrar seus hábitos, e visualizar um gráfico com o progresso diário.
+    É possivel também verificar seu histórico de progresso em um calendário interativo. Além disso possui um sistema de login e cadastro.`,
+    deployUrl: 'https://projeto10-trackit-ten.vercel.app/',
+    githubUrl: 'https://github.com/lgsfarias/projeto10-trackit',
+    tags: ['react', 'styled-components'],
+  },
+  {
+    id: 5,
     image: '/images/projects/electrum.png',
     title: 'Electrum E-commerce',
     description:
@@ -58,7 +68,7 @@ const projects: ProjectDTO[] = [
     tags: ['html', 'sass'],
   },
   {
-    id: 5,
+    id: 6,
     image: '/images/projects/tweetero-java.png',
     title: 'Tweetero Java',
     description:
