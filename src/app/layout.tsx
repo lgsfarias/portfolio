@@ -21,7 +21,7 @@ export default function RootLayout({
       */}
       <head />
       <body className={`${robotoCondensed.className} `}>
-        <div className="bg-gradient-to-tr from-indigo-400 to-indigo-700 flex flex-col absolute inset-0 overflow-y-auto max-w-full">
+        <div className="bg-gradient-to-tr from-indigo-400 to-indigo-700 flex flex-col absolute inset-0 overflow-y-auto max-w-full scrollbar-thin scrollbar-thumb-indigo-500 scrollbar-track-indigo-700 scrollbar-thumb-rounded-full">
           <Header />
           <div className="flex-grow">{children}</div>
           <Footer />
