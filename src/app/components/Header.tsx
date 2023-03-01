@@ -14,9 +14,9 @@ export default function Header() {
             priority
             src={logo}
             alt="Logo"
-            width={150}
-            height={50}
-            className="cursor-pointer w-auto h-auto"
+            width={128}
+            height={66}
+            className="cursor-pointer w-[128px] h-[66px]"
           />
         </Link>
       </div>
