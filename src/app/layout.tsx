@@ -20,8 +20,8 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={`${robotoCondensed.className}`}>
-        <div className="bg-gradient-to-tr from-indigo-400 to-indigo-700 flex flex-col absolute inset-0 overflow-scroll ">
+      <body className={`${robotoCondensed.className} `}>
+        <div className="bg-gradient-to-tr from-indigo-400 to-indigo-700 flex flex-col absolute inset-0 overflow-y-auto max-w-full">
           <Header />
           <div className="flex-grow">{children}</div>
           <Footer />
