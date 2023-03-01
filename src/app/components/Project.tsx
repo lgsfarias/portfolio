@@ -25,12 +25,12 @@ export default function Project({
         </h2>
       </div>
       <div className="flex flex-col items-start justify-start gap-2 mb-5">
-        <div className="flex w-full gap-1 overflow-auto">
+        <div className="flex w-full gap-1 overflow-auto pb-3 scrollbar-none scrollbar-thumb-indigo-400 scrollbar-track-indigo-50">
           {tags.map((tag, i) => (
             <Tag name={tag} key={randomUUID()} />
           ))}
         </div>
-        <div className="overflow-y-auto h-28">
+        <div className="overflow-y-auto h-28 scrollbar-thin pr-3 scrollbar-thumb-indigo-400 scrollbar-track-indigo-50">
           <p className="text-black">{description}</p>
         </div>
       </div>
