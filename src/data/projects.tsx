@@ -49,6 +49,15 @@ const projects: ProjectDTO[] = [
   },
   {
     id: 4,
+    image: '/images/projects/driven-pass.png',
+    title: 'Driven Pass',
+    description:
+      'API REST desenvolvida para o Driven Pass, um gerenciador de senhas! Com ele é possível armazenar senhas, notas seguras, cartões e muito mais. Os usuários podem acessar-las, de forma segura, pois o sistema utiliza um algoritmo de criptografia para armazenar as senhas. O Driven Pass também possui um sistema de login e cadastro.',
+    githubUrl: 'https://github.com/lgsfarias/drivenpass-api',
+    tags: ['typescript', 'express', 'prisma', 'postgresql', 'jwt'],
+  },
+  {
+    id: 5,
     image: '/images/projects/trackit.png',
     title: 'TrackIt',
     description: `TrackIt é uma aplicação web para gerenciar seus hábitos. É possível cadastrar seus hábitos, e visualizar um gráfico com o progresso diário.
@@ -58,7 +67,7 @@ const projects: ProjectDTO[] = [
     tags: ['react', 'styled-components'],
   },
   {
-    id: 5,
+    id: 6,
     image: '/images/projects/electrum.png',
     title: 'Electrum E-commerce',
     description:
@@ -68,7 +77,7 @@ const projects: ProjectDTO[] = [
     tags: ['html', 'sass'],
   },
   {
-    id: 6,
+    id: 7,
     image: '/images/projects/tweetero-java.png',
     title: 'Tweetero Java',
     description:
