@@ -9,10 +9,7 @@ export default function Home() {
           Olá, eu sou Luiz Gustavo Farias 👋
         </h1>
         <p className="text-white text-xl">
-          Um <strong>Desenvolvedor Full Stack</strong> apaixonado por tecnologia
-          e por desenvolver soluções que impactam positivamente a vida das
-          pessoas. Aqui você encontrará alguns dos meus projetos mais recentes
-          ou que eu ache importante.
+          Tenho formação em <strong>Desenvolvimento Full Stack</strong> pela <a target="_blank" href='https://driven.com.br/'className='font-bold underline'>Driven Education</a> e possuo experiência como Analista Desenvolvedor Node/PHP. Destaco minha eficácia na comunicação e capacidade de trabalho em equipe. Busco uma posição como Software Engineer em uma empresa que valorize inovação, tecnologias modernas e tenha um foco orientado ao cliente.
         </p>
         <div className="flex gap-5 items-center justify-start mt-5 self-start">
           <Link
@@ -23,7 +20,7 @@ export default function Home() {
             <Folder size={24} className="ml-2 hidden sm:inline-block" />
           </Link>
           <a
-            href="LUIZ GUSTAVO FARIAS.pdf"
+            href="LUIZ GUSTAVO FARIAS PUBLICO.pdf"
             download
             className="bg-white text-black px-5 py-2 rounded-md font-bold"
           >
